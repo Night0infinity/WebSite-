@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9b433c6ed4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/Logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web-developer</p>
+                <h1>Hi, I'm <span>Liubomyr</span><br>Kurylo from Ukraine</h1>
+            </div>
+        </div>
+    </div>
+    <!-----------------about-------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>gswysgw wsywgd, uduwdu, deudueh hueduwd uedhu,n heudheh uhehu car 8hwuwhe  mafo rrfefetb hurfieb uythg fdjnds illd frst heur ,f rhuhruhf goggogogogogo 1234567890 telefonyite na cei nomer         t</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web</span><br>Developing Web-sites</li>
+                            <li><span>Front-End</span><br>html, css</li>
+                            <li><span>Back-End</span><br>C#, Api.Net, .Net</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022</span><br>Shopshifting Web-Site Back-End part</li>
+                            <li><span>2023 - Current</span><br>Developing Personal Portfolio Web-site</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2011 - 2022</span><br>Lviv Liceum *57 Ukraine</li>
+                            <li><span>2022 - Current</span><br>BBA from LPNU Ukraine</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- ------------services----------- --> 
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-globe"></i>
+                <h2>Web Developing</h2>
+                <p>waminduiagyovbf ayifg si fsifhspeov bs9 wh h9uwbivjdh8whvw v vwv wgv gwv vgw d-hv -sh</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-tablet-screen-button"></i>
+                <h2>Front-End</h2>
+                <p>waminduiagyovbf ayifg si fsifhspeov bs9 wh h9uwbivjdh8whvw v vwv wgv gwv vgw d-hv -sh</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-server"></i>
+                <h2>Back-End</h2>
+                <p>waminduiagyovbf ayifg si fsifhspeov bs9 wh h9uwbivjdh8whvw v vwv wgv gwv vgw d-hv -sh</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -------------portfolio-------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Images/work-1.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>This app can hack you and all your devices, but only in my dream</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/work-2.png">
+                <div class="layer">
+                    <h3>Titanic hardware</h3>
+                    <p>Your ship surely will not dissapear, we can't garant it to you</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/work-3.png">
+                <div class="layer">
+                    <h3>Max have passed an driving exam?</h3>
+                    <p>Related on our last information, person known as Max Drofyak, dissapeared, also we have a suspicion that he was with girl</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#"class="btn">See more</a>
+    </div>
+</div>
+<! -----------------contact-------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> l.kurylo2005@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 
+                    +380963646252</p>
+                <div class="social-icons">
+                    <a href="https://x.com/night_4ce?t=uZs0C9Un5hXaldZa3jjECg&s=09"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100031139086763"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/wishofendless/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/%D0%BB%D1%8E%D0%B1%D0%BE%D0%BC%D0%B8%D1%80-%D0%BA%D1%83%D1%80%D0%B8%D0%BB%D0%BE-321075277/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="Images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email"name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @Night. Made by <i class="fa-solid fa-heart"></i> Liubomyr Kurylo</p>
+    </div>
+</div>
+
+
+
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+        
+    </script>
+
+<script>
+    var sidemen = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemen.style.right = "0";
+    }
+    function closemenu(){
+        sidemen.style.right = "-200px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwVgRmLwpTL2uJrZO2ei-kH-4E-o5mce7RSL49C0oqmDB7I6Thy2XeHB2w8pbL2XWi7/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent succesfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
